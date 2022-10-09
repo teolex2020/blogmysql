@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .shadowOne {
+-webkit-box-shadow: 1px 3px 11px 1px #878787; 
+box-shadow: 1px 3px 11px 1px #878787;
+  }
+}
